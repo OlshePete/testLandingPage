@@ -1,0 +1,190 @@
+body{
+  background-color: darkgrey;
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+
+}
+body h2{
+    font-weight: 550;
+}
+.general { 
+    padding: 1px;
+    font-size: 32px;
+    width: 1219px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.general h2{
+    text-align: center;
+}
+.team .general h2{
+    font-size: 64px;
+    color: #007765;
+    margin-top: 58px;
+    margin-bottom: 32px;
+}
+.general p{
+    padding-left: 55px;
+    padding-right: 55px;
+}
+.topHeader {
+    padding: 1px;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    height: 80px;   
+    background: #007765;
+    color: #FFFFFF;
+}
+
+.mainMenu .general{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logoImg{
+    padding: 1px;
+    display: inline-block;
+    height: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 55px;
+}
+.logoLinks{
+    font-size: 24px;
+    display: inline-block;
+    margin-right: 0px;
+    margin-left: 100px;
+}
+.mainMenu{
+    position: relative;
+    width: 1219px;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.header{
+    margin-top: 0;
+    padding-top: 160px;
+    padding-bottom: 160px;
+    width: 100%;
+    background: url("images/backgrounds/background_header.png"); 
+    background-size: cover;
+}
+.header  h2{
+    color: #EEEEEE;
+    font-size: 72px;
+    font-weight: 500;
+}
+
+.problem {
+    padding-top: 48px;
+    padding-bottom: 92px;
+    background: #EEEEEE;
+    width: 100%;
+}
+.problem h2{
+    color:#007765;
+    font-size: 64px;
+}
+.slogan {    
+    padding-top: 128px;
+    padding-bottom: 127px;
+    background: url("images/backgrounds/background_slogan.png");
+    background-size: cover;
+    text-align: center;
+    font-style:italic;
+    font-weight: 550;
+    color: #FFFFFF;
+}
+.slogan .general p{
+    font-size: 48px;
+}
+.PiedPiperCoin {
+    padding-bottom: 92px;
+    background: #FFFFFF;
+}
+.PiedPiperCoin .general h2{
+    color:#007765;
+    font-size: 64px;
+    margin-top: 48px;
+    margin-bottom: 16px;
+}
+.PiedPiperCoin .general img{
+    width: 115px;
+    height: 115px;
+    float: left;
+    padding-right: 48px;
+    margin-left: 55px;
+}
+.team {
+    margin-right: auto;
+    margin-left: auto;
+    padding: 1px;
+    background: #EEEEEE;
+}
+
+.general .unitList{
+    display: inline-block;
+    margin-left: 55px;
+    margin-right: 55px;
+margin-bottom: 94px;
+    text-align: center; 
+}
+.unit{
+    display: inline-block;
+    text-align: center; 
+    width: 350px;
+    height: 283px;
+    padding: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.box2 .box5{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.name{
+    color:#007765;
+    font-weight:bold;
+    font-size: 24px;
+    margin: 0px;
+    padding: 0px;
+}
+.job{ 
+    color:#000000;
+    font-weight: normal;
+    font-size: 18px; 
+    font-style: italic;
+    margin: 0px;
+    padding: 0px;
+}
+.unit img{
+    padding-top: 20px;
+    padding-bottom: 12px;
+    width: 168px;
+    height: 168px; 
+}
+.basement{
+    padding-top: 48px;
+    padding-bottom: 64px;
+    background: #444444;
+    text-align: center;
+}
+.basement .general p{
+    font-size: 18px;
+    color: #FFFFFF;
+    font-weight: 400;
+}
+A {
+    text-decoration: none;
+    color: #FFFFFF; /* Цвет ссылок */
+   }
+   A:visited {
+    color: #FFFFFF; /* Цвет посещенных ссылок */
+   }
+   A:active {
+    color: #FFFFFF; /* Цвет активных ссылок */
+   }
